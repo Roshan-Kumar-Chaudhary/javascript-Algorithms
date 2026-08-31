@@ -51,3 +51,10 @@ console.log(fibonacci(6)); // [0, 1, 1, 2, 3, 5]
 console.log(fibonacci(7)); // [0, 1, 1, 2, 3, 5, 8]
 console.log(fibonacci(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
 console.log(fibonacci(9)); // [0, 1, 1, 2, 3, 5, 8, 13,21]
+
+
+// Big 0 Notation cheat code
+// calculation not dependent on input size == o(1) or constant
+// 1 loop == o(n) or linear
+// 2 loops == o(n^2) or quadratic
+// input sice reduced by half == o(log n) or logarithmic
