@@ -21,3 +21,5 @@ function bubbleSort(arr) {
 const arr = [5, 2, 9, 1, 5, 6];
 bubbleSort(arr);
 console.log(arr); // [1, 2, 5, 5, 6, 9]
+
+// Big O time complexity: O(n^2) in the worst case
